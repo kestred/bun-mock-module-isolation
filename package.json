@@ -1,0 +1,15 @@
+{
+  "name": "bun-mock-isolation-repro",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "workspaces": ["pkg/*"],
+  "dependencies": {
+    "@tool/gritql": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.4",
+    "typescript": "^5.9.3"
+  },
+  "packageManager": "bun@1.3.5"
+}
